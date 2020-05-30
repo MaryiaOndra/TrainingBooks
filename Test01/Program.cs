@@ -6,6 +6,13 @@ namespace Test01
     {
         static void Main(string[] args)  // объявление метода
         {
+            Console.Write(double.NegativeInfinity);
+            Console.WriteLine(1.0 / 0.0);
+
+            Console.WriteLine(0.0 / 0.0);
+            
+
+            
            
             Console.ReadLine();
         } //конец метода
